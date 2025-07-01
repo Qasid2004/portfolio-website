@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background: linear-gradient(135deg, #0d6efd, #3a86ff);
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 18px;
+  }
+  
+  section {
+    padding: 40px 0;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  }
+  
+  h2 {
+    color: #0d6efd;
+    margin-bottom: 15px;
+  }
+  
+  .projects ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .projects li {
+    margin-bottom: 10px;
+  }
+  
+  .projects a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #3a86ff;
+    font-weight: 500;
+  }
+  
+  .projects a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact p {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #1c1c1c;
+    color: #ccc;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  
+  .github-link {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #fff;
+    color: #0d6efd;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+  }
+  
+  .github-link:hover {
+    background-color: #0d6efd;
+    color: #fff;
+  }
+
+  .contact-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  
+  .contact-btn:hover {
+    background-color: #3a86ff;
+  }
+  
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 28px;
+    }
+  
+    header p {
+      font-size: 16px;
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  }
+  
